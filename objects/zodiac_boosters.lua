@@ -219,7 +219,7 @@ function zodiac_pool(_type)
         end
 
         -- Remove cards that are already present
-        if add and G.GAME.used_jokers[v.key] and not(next(SMODS.find_card('j_showman'))) then
+        if add and G.GAME.used_jokers[v.key] and not(next(SMODS.find_card('j_ring_master'))) then
             add = nil
         end
 
